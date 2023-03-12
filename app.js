@@ -20,8 +20,8 @@ let getMovie = () => {
                 <img src=${data.Poster} class='poster'>
                 <div>
                     <h2>${data.Title}</h2>
-                    <div>
-                        <img src="star-icon.svg">
+                    <div class="rating">
+                        <img src="star.svg">
                         <h4>${data.imdbRating}</h4>
                     </div>
                     <div class='details'>
